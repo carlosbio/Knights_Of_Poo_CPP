@@ -1,0 +1,2 @@
+ataca K01 P02 P02 P01
+ataca S01 P02 P03 P01

@@ -1,0 +1,2 @@
+ataca S02 P02 S02 P01
+ataca S03 P02 S03 P01

@@ -1,0 +1,165 @@
+mkgame 30 54
+setf flo 0 0
+setf flo 0 1
+setf flo 0 2
+setf flo 0 3
+setf flo 0 4
+setf flo 0 5
+setf flo 1 0
+setf flo 1 1
+setf flo 1 2
+setf flo 1 3
+setf flo 1 4
+setf flo 2 0
+setf flo 2 1
+setf flo 2 2
+setf flo 2 3
+setf flo 2 35
+setf flo 2 42
+setf flo 3 0
+setf flo 3 1
+setf flo 3 2
+setf flo 4 0
+setf flo 4 1
+setf flo 4 19
+setf flo 4 32
+setf flo 4 38
+setf flo 5 0
+setf flo 5 45
+setf flo 6 23
+setf flo 6 41
+setf flo 8 13
+setf flo 8 16
+setf flo 8 28
+setf flo 8 32
+setf flo 8 39
+setf flo 9 19
+setf flo 9 36
+setf flo 9 43
+setf flo 11 8
+setf flo 11 12
+setf flo 11 15
+setf flo 11 29
+setf flo 11 38
+setf flo 12 19
+setf flo 12 24
+setf flo 12 46
+setf flo 13 33
+setf flo 14 6
+setf flo 14 22
+setf flo 14 26
+setf flo 16 10
+setf flo 16 27
+setf flo 17 6
+setf flo 17 16
+setf flo 17 20
+setf flo 17 23
+setf flo 17 30
+setf flo 17 39
+setf flo 17 43
+setf flo 18 34
+setf flo 19 13
+setf flo 19 38
+setf flo 20 24
+setf flo 20 30
+setf flo 21 12
+setf flo 21 17
+setf flo 21 20
+setf flo 21 35
+setf flo 22 28
+setf flo 23 5
+setf flo 23 9
+setf flo 23 17
+setf flo 23 40
+setf flo 24 14
+setf flo 24 53
+setf flo 25 31
+setf flo 25 34
+setf flo 25 52
+setf flo 25 53
+setf flo 26 10
+setf flo 26 16
+setf flo 26 22
+setf flo 26 51
+setf flo 26 52
+setf flo 26 53
+setf flo 27 50
+setf flo 27 51
+setf flo 27 52
+setf flo 27 53
+setf flo 28 49
+setf flo 28 50
+setf flo 28 51
+setf flo 28 52
+setf flo 28 53
+setf flo 29 48
+setf flo 29 49
+setf flo 29 50
+setf flo 29 51
+setf flo 29 52
+setf flo 29 53
+setf min 0 8
+setf min 4 49
+setf min 5 14
+setf min 5 21
+setf min 5 41
+setf min 6 18
+setf min 9 48
+setf min 11 23
+setf min 11 34
+setf min 12 14
+setf min 13 40
+setf min 19 11
+setf min 19 19
+setf min 20 5
+setf min 21 43
+setf min 22 33
+setf min 26 6
+setf min 26 30
+setf min 27 38
+setf min 29 45
+setf ped 2 18
+setf ped 2 25
+setf ped 2 30
+setf ped 2 45
+setf ped 8 0
+setf ped 8 23
+setf ped 8 40
+setf ped 8 51
+setf ped 10 11
+setf ped 12 49
+setf ped 13 2
+setf ped 16 14
+setf ped 18 47
+setf ped 19 3
+setf ped 19 33
+setf ped 21 8
+setf ped 21 53
+setf ped 22 18
+setf ped 25 37
+setf ped 28 34
+pop HORDA
+pop ALIANCA
+sete HORDA cas 4 4
+sete HORDA quin 2 6
+sete HORDA quin 6 2
+setu HORDA camp 4 6
+setu HORDA camp 6 6
+setu HORDA camp 6 4
+sete ALIANCA cas 25 49
+sete ALIANCA quin 23 51
+sete ALIANCA quin 27 47
+sete ALIANCA est 21 51
+sete ALIANCA quar 27 45
+setu ALIANCA camp 25 47
+setu ALIANCA camp 23 47
+setu ALIANCA camp 23 49
+setu ALIANCA sold 23 43
+setu ALIANCA sold 25 43
+setu ALIANCA sold 27 43
+setu ALIANCA cav 25 45
+setu ALIANCA cv 21 49
+mina P01 P02 M20
+mina P02 P02 F99
+mina P03 P02 F98
+mina B01 P02 R17

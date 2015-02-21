@@ -1,2 +1,4 @@
-# Knights_Of_Poo_CPP
+Knights_Of_Poo_C++
+================
+
 Warcraft like game built in C++
